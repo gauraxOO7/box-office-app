@@ -18,12 +18,8 @@ const Navs = () => {
                  <Link to={item.to}>{item.text}</Link>
                 </li>
             ))}
-           
-                
-            
-        </ul>
-      
-    </div>
+           </ul>
+      </div>
   )
 }
 
