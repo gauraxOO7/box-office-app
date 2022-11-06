@@ -4,7 +4,7 @@ function showReducer (prevState,action){
     switch(action.type){
         
         case 'ADD':{
-             return[...prevState.action.showId]
+             return[...prevState, action.showId]
         }
 
         case 'REMOVE':{
